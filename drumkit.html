@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="drum.css">
+        <script src="drum.js"></script>
+    </head>
+    <body>
+        
+        <div class="drumkit">
+
+            <div data-key="65" class="flex-container" onclick="PlaySound1('a1')" ondblclick="StopSound1('a1')"> 
+                <kbd>A</kbd>
+                <div class="sound">clapping</div>
+            </div>
+
+            <div data-key="83" class="flex-container" onclick="PlaySound2('a2')" ondblclick="StopSound2('a2')">
+                <kbd>S</kbd>
+                <div class="sound">kick</div>
+            </div>
+
+            <div data-key="68" class="flex-container" onclick="PlaySound3('a3')" ondblclick="StopSound3('a3')">
+                <kbd>D</kbd>
+                <div class="sound">robot</div>
+            </div>
+            <div data-key="70" class="flex-container" onclick="PlaySound4('a4')" ondblclick="StopSound4('a4')">
+                <kbd>F</kbd>
+                <div class="sound">kick</div>
+            </div>
+
+        </div>
+
+        <audio id='a1' data-key="65" src="sounds/clapping.wav"></audio>
+        <audio id='a2' data-key="83" src="sounds/kick.mp3"></audio>
+        <audio id='a3' data-key="68" src="sounds/Robot.wav"></audio>
+        <audio id='a4' data-key="70" src="sounds/kick.mp3"></audio>
+        
+    </body>
+</html>

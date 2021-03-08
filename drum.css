@@ -1,0 +1,35 @@
+body{
+    margin:10%;
+    padding: 5%;
+    background: url("https://wallpapercave.com/wp/wp3439143.png") no-repeat;
+    background-size:  100%;
+}
+.drumkit{
+    display:flex;
+    font-family: 'arial';
+    font-size:20px;
+    justify-content: center;
+}
+
+.flex-container  {
+    justify-content: center;
+    line-height: 30px;
+    width: 100px;
+    margin: 50px;
+    text-align: center;
+    color:grey;
+    border-radius:2%;
+    border:solid red 1px;
+}
+
+kbd{
+    padding:15px;
+    font-family: 'arial';
+    color:blue;
+    font-weight:bold;
+}
+
+div.sound{
+    padding:15px;
+    color:green;
+}
